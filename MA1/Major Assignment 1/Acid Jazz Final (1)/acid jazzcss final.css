@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+    color: rgb(102, 255, 0);
+    text-shadow: -5px 12px #000000;
+    font-size: 70px;
+}
+
+#heading {
+    background-color: rgba(0, 0, 0, 0.548);
+    font-family: monospace;
+    font-size: 30px
+}
+
+#Intro {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+body {
+    background-image: linear-gradient(rgb(99, 99, 99), gray, rgb(255, 73, 73), rgb(243, 3, 3));
+    color: antiquewhite;
+    font-family: 'cursive'
+}
+
+.Evolution {
+    margin-top: 50px;
+    margin-right: 550px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive
+}
+
+#P5 {
+    width: 25%;
+    margin-left: 920px;
+}
+
+
+img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin-left: 850px;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-left: 900px
+}
+
+a {
+    Color: rgb(0, 0, 0)
+}
+
+a:hover {
+    Color: rgb(250, 233, 0)
+}
+
+p {
+    margin-right: 50em;
+
+}
+
+@media (max-width: 1240px) {
+
+    .Evolution {
+        margin-top: 20px;
+        margin-right: 500px;
+        margin-left: 100px;
+        position: absolute;
+        text-align: center;
+        font-size: 20px
+    }
+
+    img {
+        width: 35%;
+        height: auto;
+        display: block;
+        margin-left: 650px;
+        margin-right: auto;
+
+    }
+
+    figcaption {
+        text-align: center;
+        margin-left: 600px
+    }
+
+
+}
+
+@media (max-width: 1100px) {
+    .Evolution {
+        margin-top: 20px;
+        margin-right: 400px;
+        margin-left: 100px;
+        position: absolute;
+        text-align: center;
+        font-size: 15px
+    }
+
+    img {
+        width: 35%;
+        height: auto;
+        display: block;
+        margin-left: 650px;
+        margin-right: auto;
+
+    }
+
+    figcaption {
+        text-align: center;
+        margin-left: 700px;
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .Evolution {
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 100px;
+        position: absolute;
+        text-align: center;
+        font-size: 15px
+    }
+
+    figcaption {
+        text-align: center;
+        margin-left: 600px
+    }
+
+}
