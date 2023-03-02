@@ -1,0 +1,35 @@
+@import "normalize.css";
+
+@media screen and (max-width: 500px) {
+
+    .title {
+        text-align: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #868686;
+        padding: 10px;
+        grid-gap: 10px
+    }
+
+    .grid {
+        background-color: #ebff39;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        font-size: 25px;
+    }
+
+
+    .tall {
+        grid-column: 1 / span 1;
+        grid-row: 2/ span 2
+    }
+
+    .long {
+        grid-row: 1 /span 1;
+        grid-column: 1/ span 2;
+
+    }
+}
