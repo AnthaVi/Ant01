@@ -1,0 +1,55 @@
+@media screen and (max-width: 740px) {
+  .Title {
+    font-size: 25px;
+    display: inline-flex;
+    margin-right: 100px;
+    margin-left: 130px;
+    text-align: center;
+  }
+  .rules {
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 30px;
+    position: absolute;
+  }
+  body {
+    height: 810px;
+  }
+  .imgs {
+    margin-left: 10px;
+  }
+  .One-1 {
+    width: 400px;
+    height: 200px;
+  }
+  .Arrow {
+    position: absolute;
+    left: 350px;
+    top: 250px;
+    height: 150px;
+    width: auto;
+    transform: rotate(10deg);
+  }
+  .Two-2 {
+    width: 300px;
+    height: 200px;
+  }
+  .Arrow2 {
+    position: absolute;
+    left: 370px;
+    top: 450px;
+    height: 150px;
+    width: auto;
+    transform: rotate(-55deg);
+  }
+  .Three-3 {
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+  }
+  .Text {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=size3.css.map */
