@@ -1,7 +1,6 @@
 @media screen and (max-width: 1140px) and (min-width: 741px) {
   .Title {
     font-size: 50px;
-    margin-left: 380px;
   }
   .rules {
     font-size: 17px;
@@ -16,7 +15,7 @@
     margin-left: 10px;
   }
   .Arrow {
-    left: 700px;
+    left: 575px;
     top: 250px;
     transform: scaleX(1);
     height: 150px;
@@ -28,7 +27,7 @@
     height: 200px;
   }
   .Arrow2 {
-    left: 690px;
+    left: 550px;
     top: 450px;
     height: 150px;
     width: auto;

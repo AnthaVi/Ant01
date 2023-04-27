@@ -1,10 +1,7 @@
 @media screen and (max-width: 740px) {
   .Title {
     font-size: 25px;
-    display: inline-flex;
-    margin-right: 100px;
-    margin-left: 130px;
-    text-align: center;
+    display: inline;
   }
   .rules {
     font-size: 15px;

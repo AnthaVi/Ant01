@@ -1,12 +1,16 @@
 .Title {
   font-size: 94px;
-  align-content: center;
   color: black;
   display: inline;
-  margin-left: 370px;
+  margin: 0 auto;
+  width: 100%;
   background-color: yellow;
   border: solid 5px black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.MainTitle {
+  text-align: center;
 }
 
 .rules {
@@ -37,10 +41,15 @@ body {
   width: 50%;
 }
 
+.Parent1 {
+  position: relative;
+}
+
 .One-1 {
   width: 700px;
   height: 400px;
   border: 5px solid rgb(255, 166, 0);
+  position: relative;
 }
 
 .Arrow {
@@ -90,7 +99,6 @@ h2 {
 @media screen and (max-width: 1140px) and (min-width: 741px) {
   .Title {
     font-size: 50px;
-    margin-left: 380px;
   }
   .rules {
     font-size: 17px;
@@ -105,7 +113,7 @@ h2 {
     margin-left: 10px;
   }
   .Arrow {
-    left: 700px;
+    left: 575px;
     top: 250px;
     transform: scaleX(1);
     height: 150px;
@@ -117,7 +125,7 @@ h2 {
     height: 200px;
   }
   .Arrow2 {
-    left: 690px;
+    left: 550px;
     top: 450px;
     height: 150px;
     width: auto;
@@ -137,10 +145,7 @@ h2 {
 @media screen and (max-width: 740px) {
   .Title {
     font-size: 25px;
-    display: inline-flex;
-    margin-right: 100px;
-    margin-left: 130px;
-    text-align: center;
+    display: inline;
   }
   .rules {
     font-size: 15px;
